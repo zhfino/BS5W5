@@ -19,39 +19,46 @@
 </head>
 
 <body>
-    <div class="sidebar d-flex flex-column d-flex justify-content-between">
-        <div class="functionList">
-            <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/2b326fe971cd296bd54667a9b4a63c4b0f19fab3/week5/logo-ANSWER.svg"
-                alt="logo">
-            <ul class="list-unstyled">
-                <li class="pt-4"><a href="#" class="d-flex align-items-center">
-                        <span class="material-icons pe-3">insert_chart_outlined</span>
-                        Dashboard</a></li>
-                <li class="pt-4"><a href="#" class="d-flex align-items-center">
-                        <span class="material-icons pe-3">question_answer</span>
-                        Question</a></li>
-                <li class="pt-4"><a href="#" class="d-flex align-items-center">
-                        <span class="material-icons pe-3">assignment</span>
-                        Assignment</a></li>
-                <li class="pt-4"><a href="#" class="d-flex align-items-center">
-                        <span class="material-icons pe-3">video_library</span>
-                        Course</a></li>
-                <li class="pt-4"><a href="#" class="d-flex align-items-center">
-                        <span class="material-icons pe-3">people</span>
-                        Admin</a></li>
-                <li class="pt-4"><a href="#" class="d-flex align-items-center">
-                        <span class="material-icons pe-3">settings</span>
-                        Settings</a></li>
-            </ul>
-
-
+    <div class="main d-flex">
+        <div class="sidebar d-flex flex-column d-flex justify-content-between">
+            <div class="functionList ">
+                <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/2b326fe971cd296bd54667a9b4a63c4b0f19fab3/week5/logo-ANSWER.svg"
+                    alt="logo" class="pb-2">
+                <ul class="list-unstyled ">
+                    <li><a href="#" class="d-flex align-items-center">
+                            <span class="material-icons pe-3">insert_chart_outlined</span>
+                            Dashboard</a></li>
+                    <li><a href="#" class="d-flex align-items-center">
+                            <span class="material-icons pe-3">question_answer</span>
+                            Question</a></li>
+                    <li><a href="#" class="d-flex align-items-center">
+                            <span class="material-icons pe-3">assignment</span>
+                            Assignment</a></li>
+                    <li><a href="#" class="d-flex align-items-center">
+                            <span class="material-icons pe-3">video_library</span>
+                            Course</a></li>
+                    <li ><a href="#" class="d-flex align-items-center">
+                            <span class="material-icons pe-3">people</span>
+                            Admin</a></li>
+                    <li><a href="#" class="d-flex align-items-center">
+                            <span class="material-icons pe-3">settings</span>
+                            Settings</a></li>
+                </ul>
+    
+    
+            </div>
+            <div class="user_card d-flex align-items-center">
+                <img src="https://raw.githubusercontent.com/zhfino/BS5W5/main/app/assets/images/andychen.jpeg"
+                    alt="andychen" class="me-3 ">
+                    <div class="user_info">
+                        <p>Andy Chen</p>
+                        <p class="mail">andy0401@mail.com</p>
+                    </div>
+            </div>
         </div>
-        <div class="user">
-            <img src="" alt="">
-        </div>
+    
+        <%- contents %>
     </div>
-
-    <%- contents %>
 
 
     <script src="./assets/js/vendors.js"></script>
